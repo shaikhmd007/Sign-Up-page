@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.body-container {
+  display: flex;
+  /* align-items: right; */
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  margin: 0rem, 5rem, 0rem, 5rem;
+  background-color: #e1e1e1;
+} /*
+.main-container {
+  background-color: #e1e1e1;
+  height: 100%;
+  width: 100%;
+
+  border: 2px solid rgb(247, 222, 3);
+} */
+.left-side-container {
+  background-color: #ffffff;
+  height: 100%;
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.right-side-container {
+  background-color: #0eca98;
+  height: 100%;
+  width: 30%;
+
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#color_logo {
+  color: #0bc98a;
+  /* text-decoration: solid; */
+  font-weight: bolder;
+}
+.title {
+  align-items: center;
+  color: #0bc98a;
+  /* text-decoration: solid; */
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.hr1 {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: #0bc98a;
+  margin-bottom: 50px;
+}
+.hr2 {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: #ffffff;
+  margin-bottom: 50px;
+}
+/* #e1e1e1
+#0eca98 */
+.f_fields {
+  /* display: inline-block; */
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  height: 100%;
+  width: 50%;
+  padding: 1rem;
+  margin-left: 8rem;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline-color: #0bc98a;
+}
+#btn1 {
+  background-color: #0bc98a;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-radius: 50px;
+  padding: 10px;
+  width: 50%;
+  size: 1.5rem;
+  cursor: pointer;
+}
+#btn2 {
+  border: 1px solid white;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-left: 5rem;
+  border-radius: 50px;
+  padding: 10px;
+  width: 40%;
+  background-color: transparent;
+  size: 1.5rem;
+  cursor: pointer;
+}
+.check {
+  font-size: 15px;
+  color: blue;
+  font-weight: bold;
+}
+.SignUp {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+p {
+  text-align: center;
+}
